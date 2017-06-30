@@ -5,6 +5,7 @@
  * created by Philipp Geisler
  */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
 @import "vendor/bulma/sass/utilities/initial-variables";
 
@@ -20,7 +21,7 @@ $primary: darken($green, 10%);
  *  VARIABLES ($section)
 \* ================================================== */
 
-$family-headers: "Open Sans Condensed", sans-serif;
+$family-headers: "Roboto Condensed", sans-serif;
 
 
 /* ================================================== *\
@@ -30,10 +31,15 @@ $family-headers: "Open Sans Condensed", sans-serif;
 /* HEADERS */
 h1, h2, h3 {
   font-family: $family-headers;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 3rem;
+}
+
+h3 {
+  font-weight: 400;
 }
 
 
@@ -46,5 +52,17 @@ h1 {
 \* ====================================== */
 
 /* ====================================== *\
+ *  SECTIONS ($section)
+\* ====================================== */
+
+.footer {
+  font-family: $family-headers;
+}
+
+/* ====================================== *\
  *  MISC, OVERRIDES,… ($section)
 \* ====================================== */
+
+.has-flex-end {
+  align-self: flex-end;
+}

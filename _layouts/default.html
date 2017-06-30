@@ -48,7 +48,16 @@
             FORM HERE
         </div>
         <div class="column is-one-third">
-          LATEST NEWS HERE
+          {% for post in site.posts %}
+            <article class="content">
+              <header>
+                <h3>{{ post.title }}</h3>
+              </header>
+              <p>
+                {{ post.excerpt }}
+              </p>
+            </article>
+          {% endfor %}
         </div>
       </div>
     </section>
