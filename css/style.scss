@@ -1,0 +1,50 @@
+---
+---
+/*
+ * African Terminal
+ * created by Philipp Geisler
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+@import "vendor/bulma/sass/utilities/initial-variables";
+
+/* ================================================== *\
+ *  BULMA VAR OVERRIDES ($section)
+\* ================================================== */
+
+$primary: darken($green, 10%);
+
+@import "vendor/bulma/bulma";
+
+/* ================================================== *\
+ *  VARIABLES ($section)
+\* ================================================== */
+
+$family-headers: "Open Sans Condensed", sans-serif;
+
+
+/* ================================================== *\
+ *  BASE ELEMENTS ($section)
+\* ================================================== */
+
+/* HEADERS */
+h1, h2, h3 {
+  font-family: $family-headers;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+
+/* ================================================== *\
+ *  NAVIGATIONAL ELEMENTS ($section)
+\* ================================================== */
+
+/* ====================================== *\
+ *  PAGES ($section)
+\* ====================================== */
+
+/* ====================================== *\
+ *  MISC, OVERRIDES,… ($section)
+\* ====================================== */

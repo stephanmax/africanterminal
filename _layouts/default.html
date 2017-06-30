@@ -1,0 +1,73 @@
+{% include header.html %}
+<body>
+  <header class="hero is-primary has-text-centered">
+    <h1>AFRICAN TERMINAL</h1>
+    <nav class="nav tabs is-medium is-boxed is-fullwidth has-text-centered">
+      <ul>
+        <li class="is-active"><a href="#">Operatives Geschäft</a></li>
+        <li><a href="/about">Über uns</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="nav tabs is-medium is-fullwidth has-text-centered has-shadow">
+    <ul>
+      <li class=""><a href="/">Handel</a></li>
+      <li><a href="/events">Events</a></li>
+      <li><a href="/business-school">Business School</a></li>
+    </ul>
+  </nav>
+  <main class="container">
+    <section class="content">
+      <article class="message">
+        <div class="message-body">
+          <h2>default.html</h2>
+          <ul>
+            <li>page.title: {{ page.title }}</li>
+          </ul>
+        </div>
+      </article>
+      <article class="content">
+        {{ page.content }}
+      </article>
+    </section>
+    <section class="container">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          IMAGE HERE
+        </div>
+        <div class="column content is-one-third">
+          <p>
+            Für unseren Handel mit Lagos, Banjul und Nigeria suchen wir:
+          </p>
+          <ul>
+            <li>gebrauchte Elektrogeräte</li>
+            <li>Kinderspielzeug</li>
+            <li>Kinderkleidung</li>
+            <li>Möbel, Sofas, Einrichtungsgegenstände</li>
+            <li>Altreifen</li>
+            <li>Motorenteile</li>
+            <li>Waschartikel</li>
+          </ul>
+          <p>
+            Wir können ihre Unterstützung nur annehmen, wenn die Waren noch funktionsfähig, oder – im Falle von Verbrauchswaren – original verpackt sind.
+          </p>
+          <p class="has-text-centered">
+            <a href="#contribute" class="button is-primary">Do it!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-two-thirds" id="contribute">
+            FORM HERE
+        </div>
+        <div class="column is-one-third">
+          LATEST NEWS HERE
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+{% include footer.html %}
