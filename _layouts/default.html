@@ -2,6 +2,28 @@
 <body>
   {% include header-nav.html %}
   <main class="container">
+    <section class="level">
+      <article class="content">
+        {{ page.sections.intro | markdownify }}
+      </article>
+    </section>
+
+    {% if page.sections.hero %}
+    <section class="box hero">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <img src="{{ page.sections.hero.image }}" alt="">
+        </div>
+        <div class="column content is-one-third">
+          {{ page.sections.hero.text | markdownify }}
+          <p class="has-text-centered">
+            <a href="#contribute" class="button is-primary">Do it!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
     <section class="content">
       <article class="message">
         <div class="message-body">
@@ -11,36 +33,6 @@
           </ul>
         </div>
       </article>
-      <article class="content">
-        {{ page.content }}
-      </article>
-    </section>
-    <section class="container">
-      <div class="columns">
-        <div class="column is-two-thirds">
-          IMAGE HERE
-        </div>
-        <div class="column content is-one-third">
-          <p>
-            Für unseren Handel mit Lagos, Banjul und Nigeria suchen wir:
-          </p>
-          <ul>
-            <li>gebrauchte Elektrogeräte</li>
-            <li>Kinderspielzeug</li>
-            <li>Kinderkleidung</li>
-            <li>Möbel, Sofas, Einrichtungsgegenstände</li>
-            <li>Altreifen</li>
-            <li>Motorenteile</li>
-            <li>Waschartikel</li>
-          </ul>
-          <p>
-            Wir können ihre Unterstützung nur annehmen, wenn die Waren noch funktionsfähig, oder – im Falle von Verbrauchswaren – original verpackt sind.
-          </p>
-          <p class="has-text-centered">
-            <a href="#contribute" class="button is-primary">Do it!</a>
-          </p>
-        </div>
-      </div>
     </section>
     <section class="section">
       <div class="columns">
