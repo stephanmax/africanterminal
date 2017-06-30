@@ -16,3 +16,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+menus:
+  main:
+    - Handel
+    - Events
+    - Business School
+  about:
+    - Die Kooperative
+    - Ort
+    - Vision
+    

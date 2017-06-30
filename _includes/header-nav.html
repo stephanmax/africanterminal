@@ -1,0 +1,29 @@
+<header class="hero is-primary has-text-centered">
+  <h1>{{ site.title | upcase }}</h1>
+  <nav class="nav tabs is-medium is-boxed is-fullwidth has-text-centered">
+    <ul>
+      <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
+        <a href="/">Operatives Geschäft</a>
+      </li>
+      <li class="{% if site.menus.about contains page.title %}is-active{% endif %} ">
+        <a href="/about">Über uns</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<nav class="nav tabs is-medium is-fullwidth has-text-centered has-shadow">
+  {% if site.menus.main contains page.title %}
+  <ul>
+    <li class="{% if page.title == 'Handel' %}is-active{% endif %} "><a href="/">Handel</a></li>
+    <li class="{% if page.title == 'Events' %}is-active{% endif %} "><a href="/events">Events</a></li>
+    <li class="{% if page.title == 'Business School' %}is-active{% endif %} "><a href="/business-school">Business School</a></li>
+  </ul>
+  {% endif %}
+  {% if site.menus.about contains page.title %}
+  <ul>
+    <li class="{% if page.title == 'Die Kooperative' %}is-active{% endif %}"><a href="/about">Die Kooperative</a></li>
+    <li class="{% if page.title == 'Ort' %}is-active{% endif %}"><a href="/about/place">Ort</a></li>
+    <li class="{% if page.title == 'Vision' %}is-active{% endif %}"><a href="/about/vision">Vision</a></li>
+  </ul>
+  {% endif %}
+</nav>
