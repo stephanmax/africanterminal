@@ -17,7 +17,7 @@
         <div class="column content is-one-third">
           {{ page.sections.hero.text | markdownify }}
           <p class="has-text-centered">
-            <a href="#contribute" class="button is-primary">Do it!</a>
+            <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@
     <section class="section">
       <div class="columns">
         <div class="column is-two-thirds" id="contribute">
-            FORM HERE
+            {% include form-contribute.html %}
         </div>
         <div class="column is-one-third">
           {% for post in site.posts %}
