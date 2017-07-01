@@ -66,3 +66,21 @@ h3 {
 .has-flex-end {
   align-self: flex-end;
 }
+
+/* https://codepen.io/alexcarpenter/pen/LveDx
+   not working as intended, covering whole page
+
+.has-background-image {
+  background-image: url('https://unsplash.it/800/450');
+  background-size: cover;
+
+  &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to right, rgba(0,0,0,0), $background);
+  }
+} */

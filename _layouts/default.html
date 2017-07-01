@@ -10,9 +10,9 @@
 
     {% if page.sections.hero %}
     <section class="box hero">
-      <div class="columns">
-        <div class="column is-two-thirds">
-          <img src="{{ page.sections.hero.image }}" alt="">
+      <div class="columns is-paddingless">
+        <div class="column is-two-thirds" style="background-image: url('{{ page.sections.hero.image }}');">
+          <!--img src="{{ page.sections.hero.image }}" alt=""-->
         </div>
         <div class="column content is-one-third">
           {{ page.sections.hero.text | markdownify }}
@@ -24,34 +24,52 @@
     </section>
     {% endif %}
 
-    <section class="content">
-      <article class="message">
-        <div class="message-body">
-          <h2>default.html</h2>
-          <ul>
-            <li>page.title: {{ page.title }}</li>
-          </ul>
-        </div>
-      </article>
-    </section>
-    <section class="section">
+    <section class="level">
       <div class="columns">
-        <div class="column is-two-thirds" id="contribute">
-            {% include form-contribute.html %}
+        <div class="column is-two-thirds">
+          <article class="message content">
+            <div class="message-body">
+              <h2>default.html</h2>
+              <ul>
+                <li>page.title: {{ page.title }}</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            {{ page.content }}
+          </article>
         </div>
-        <div class="column is-one-third">
+        <aside class="content column is-one-third" id="news">
+          <h2>Nachrichten</h2>
+
           {% for post in site.posts %}
-            <article class="content">
-              <header>
-                <h3>{{ post.title }}</h3>
+          <div class="card">
+            <article>
+              <header class="card-header">
+                <p class="card-header-title">
+                  {{ post.title }}
+                </p>
               </header>
-              <p>
-                {{ post.excerpt }}
-              </p>
+              <div class="card-image">
+                <figure class="image">
+                  <img src="https://unsplash.it/400/150/?random" alt="Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  {{ post.excerpt }}
+                  <small>{{ post.date }}</small>
+                </div>
+              </div>
             </article>
+          </div>
+
           {% endfor %}
         </div>
-      </div>
+      </aside>
+    </section>
+    <section class="box hero is-primary" id="contribute">
+      {% include form-contribute.html %}
     </section>
   </main>
 

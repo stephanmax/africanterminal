@@ -7,7 +7,7 @@ sections:
 
     Unterstützen Sie uns, indem sie nicht mehr gebrauchte Waren an uns weiter geben. Wir holen Sie kostenlos bei Ihnen zu Hause ab!
   hero:
-    image: /images/hero-img.jpg
+    image: https://unsplash.it/800/450
     text: |
       Für unseren Handel mit Lagos, Banjul und Nigeria suchen wir&#58;
 
