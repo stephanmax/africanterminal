@@ -67,13 +67,13 @@ h3 {
   align-self: flex-end;
 }
 
-/* https://codepen.io/alexcarpenter/pen/LveDx
-   not working as intended, covering whole page
 
-.has-background-image {
-  background-image: url('https://unsplash.it/800/450');
+.contribute-hero {
   background-size: cover;
-
+  background-position: center;
+}
+  /* https://codepen.io/alexcarpenter/pen/LveDx
+  not working as intended, covering whole page
   &:before {
       content: '';
       position: absolute;
@@ -82,5 +82,4 @@ h3 {
       bottom: 0;
       left: 0;
       background-image: linear-gradient(to right, rgba(0,0,0,0), $background);
-  }
-} */
+  } */
