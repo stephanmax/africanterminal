@@ -11,10 +11,10 @@
     {% if page.sections.hero %}
     <section class="box hero">
       <div class="columns is-paddingless">
-        <div class="column contribute-hero is-two-thirds" style="background-image: url('{{ page.sections.hero.image }}');">
+        <div class="column contribute-hero is-half" style="background-image: url('{{ page.sections.hero.image }}');">
           <!--img src="{{ page.sections.hero.image }}" alt=""-->
         </div>
-        <div class="column content is-one-third">
+        <div class="column content is-half">
           {{ page.sections.hero.text | markdownify }}
           <p class="has-text-centered">
             <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>

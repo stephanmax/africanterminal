@@ -1,15 +1,21 @@
-<header class="hero is-primary has-text-centered">
-  <h1>{{ site.title | upcase }}</h1>
-  <nav class="nav tabs is-medium is-boxed is-fullwidth has-text-centered">
-    <ul>
-      <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
-        <a href="/">Operatives Geschäft</a>
-      </li>
-      <li class="{% if site.menus.about contains page.title %}is-active{% endif %} ">
-        <a href="/about">Über uns</a>
-      </li>
-    </ul>
-  </nav>
+<header class="at-header hero is-primary has-text-centered">
+  <div class="hero-body is-paddingless">
+    <h1 class="at-title">AFRICAN<img src="/images/logo-AT-draft-x05.png" alt="Logo" class="at-logo">TERMINAL</h1>
+  </div>
+  <div class="hero-footer">
+    <div class="container">
+      <nav class="nav tabs is-medium is-boxed is-fullwidth has-text-centered">
+        <ul>
+          <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
+            <a href="/">Operatives Geschäft</a>
+          </li>
+          <li class="{% if site.menus.about contains page.title %}is-active{% endif %} ">
+            <a href="/about">Über uns</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 <nav class="nav tabs is-medium is-fullwidth has-text-centered has-shadow">
   {% if site.menus.main contains page.title %}

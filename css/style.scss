@@ -4,7 +4,7 @@
  * African Terminal
  * created by Philipp Geisler
  */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
 @import "vendor/bulma/sass/utilities/initial-variables";
@@ -13,7 +13,10 @@
  *  BULMA VAR OVERRIDES ($section)
 \* ================================================== */
 
-$primary: darken($green, 10%);
+$at-red:    rgb(252,  30, 0);
+$at-yellow: rgb(255, 255, 0);
+
+$primary: $at-red;
 
 @import "vendor/bulma/bulma";
 
@@ -28,6 +31,22 @@ $family-headers: "Roboto Condensed", sans-serif;
  *  BASE ELEMENTS ($section)
 \* ================================================== */
 
+/* TITLE + MENU BAR */
+.at-header {
+  background-color: $at-yellow;
+
+  h1.at-title {
+    color: $black;
+  }
+}
+
+.at-logo {
+  width:  150px;
+  height: 150px;
+  padding: 12px;
+  vertical-align: middle;
+}
+
 /* HEADERS */
 h1, h2, h3 {
   font-family: $family-headers;
@@ -41,7 +60,6 @@ h1 {
 h3 {
   font-weight: 400;
 }
-
 
 /* ================================================== *\
  *  NAVIGATIONAL ELEMENTS ($section)
