@@ -17,6 +17,7 @@ $at-red:    rgb(252,  30, 0);
 $at-yellow: rgb(255, 255, 0);
 
 $primary: $at-red;
+$warning: $at-yellow;
 
 @import "vendor/bulma/bulma";
 
@@ -32,10 +33,6 @@ $family-headers: "Roboto Condensed", sans-serif;
 \* ================================================== */
 
 /* TITLE + MENU BAR */
-.hero.is-primary .title.at-title {
-  color: $black;
-}
-
 .at-logo {
   width:  150px;
   height: 150px;
@@ -81,23 +78,8 @@ nav {
  *  MISC, OVERRIDES,… ($section)
 \* ====================================== */
 
-.has-flex-end {
-  align-self: flex-end;
+/* adjusts font-color for some .hero elements */
+.hero.is-primary .title.at-title,
+.hero.is-primary .help {
+  color: $black;
 }
-
-
-.contribute-hero {
-  background-size: cover;
-  background-position: center;
-}
-  /* https://codepen.io/alexcarpenter/pen/LveDx
-  not working as intended, covering whole page
-  &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(to right, rgba(0,0,0,0), $background);
-  } */

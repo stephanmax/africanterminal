@@ -10,21 +10,21 @@
     </section>
 
     {% if page.sections.hero %}
-    <section class="columns">
-      <div class="box hero column is-8 is-offset-2">
-        <div class="columns">
-          <div class="column content is-half">
-            <img src="{{ page.sections.hero.image }}" alt="">
-          </div>
-          <div class="column content is-half">
-            {{ page.sections.hero.text | markdownify }}
-            <p class="has-text-centered">
-              <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>
-            </p>
-          </div>
+    <section class="columns hero is-warning">
+        <div class="column is-8 is-offset-2">
+          <div class="columns">
+            <div class="column is-7">
+              <img src="{{ page.sections.hero.image }}" alt="">
+            </div>
+            <div class="column content is-5">
+              {{ page.sections.hero.text | markdownify }}
+              <p class="has-text-centered">
+                <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>
+              </p>
+            </div>
 
+          </div>
         </div>
-      </div>
     </section>
 
     <section class="level"></section>
@@ -51,7 +51,6 @@
 
         {% for post in site.posts %}
         <div class="level">
-
           <div class="card">
             <article>
               <header class="card-header">
@@ -78,8 +77,7 @@
       </aside>
     </section>
 
-
-        {% include form-contribute.html %}
+    {% include form-contribute.html %}
 
   </main>
 
