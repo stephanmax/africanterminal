@@ -1,48 +1,57 @@
 {% include header.html %}
 <body>
   {% include header-nav.html %}
-  <main class="container">
-    <section class="level">
-      <article class="content">
+  <main class="main">
+
+    <section class="columns">
+      <article class="content column is-8 is-offset-2">
         {{ page.sections.intro | markdownify }}
       </article>
     </section>
 
     {% if page.sections.hero %}
-    <section class="box hero">
-      <div class="columns is-paddingless">
-        <div class="column contribute-hero is-half" style="background-image: url('{{ page.sections.hero.image }}');">
-          <!--img src="{{ page.sections.hero.image }}" alt=""-->
-        </div>
-        <div class="column content is-half">
-          {{ page.sections.hero.text | markdownify }}
-          <p class="has-text-centered">
-            <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>
-          </p>
+    <section class="columns">
+      <div class="box hero column is-8 is-offset-2">
+        <div class="columns">
+          <div class="column content is-half">
+            <img src="{{ page.sections.hero.image }}" alt="">
+          </div>
+          <div class="column content is-half">
+            {{ page.sections.hero.text | markdownify }}
+            <p class="has-text-centered">
+              <a href="#contribute" class="button is-primary">Jetzt mitmachen!</a>
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
     {% endif %}
 
-    <section class="level">
-      <div class="columns">
-        <div class="column is-two-thirds">
-          <article class="message content is-hidden">
-            <div class="message-body">
-              <h2>default.html</h2>
-              <ul>
-                <li>page.title: {{ page.title }}</li>
-              </ul>
-            </div>
-          </article>
-          <article class="content">
-            {{ page.content | markdownify }}
-          </article>
-        </div>
-        <aside class="content column is-one-third" id="news">
-          <h2>Nachrichten</h2>
+    <section class="level"></section>
 
-          {% for post in site.posts %}
+    <section class="columns">
+      <div class="column is-5 is-offset-2">
+        <article class="message content is-hidden">
+          <div class="message-body">
+            <h2>default.html</h2>
+            <ul>
+              <li>page.title: {{ page.title }}</li>
+            </ul>
+          </div>
+        </article>
+        <article class="content">
+          <h2 class="title is-3">{{ page.title }}</h2>
+          {{ page.content | markdownify }}
+        </article>
+      </div>
+
+      <aside class="content column is-3" id="news">
+        <h2 class="title is-4">Nachrichten</h2>
+
+        {% for post in site.posts %}
+        <div class="level">
+
           <div class="card">
             <article>
               <header class="card-header">
@@ -63,16 +72,15 @@
               </div>
             </article>
           </div>
-
-          {% endfor %}
         </div>
+        {% endfor %}
+
       </aside>
     </section>
-    <section class="level">
-      <div class="box hero is-primary" id="contribute">
+
+
         {% include form-contribute.html %}
-      </div>
-    </section>
+
   </main>
 
   {% include footer.html %}

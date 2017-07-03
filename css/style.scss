@@ -32,12 +32,8 @@ $family-headers: "Roboto Condensed", sans-serif;
 \* ================================================== */
 
 /* TITLE + MENU BAR */
-.at-header {
-  background-color: $at-yellow;
-
-  h1.at-title {
-    color: $black;
-  }
+.hero.is-primary .title.at-title {
+  color: $black;
 }
 
 .at-logo {
@@ -59,6 +55,10 @@ h1 {
 
 h3 {
   font-weight: 400;
+}
+
+nav {
+  font-family: $family-headers;
 }
 
 /* ================================================== *\
