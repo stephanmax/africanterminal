@@ -17,6 +17,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+permalink: /:categories/:title/
 
 menus:
   main:
@@ -27,4 +28,3 @@ menus:
     - Die Kooperative
     - Ort
     - Vision
-    
