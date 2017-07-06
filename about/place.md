@@ -3,4 +3,8 @@ title: Ort
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Der African Terminal bezieht im Sommer 2017 am alten Afrika Terminal (Hafencity, Baakenhöft) Quartier. Vor gut hundert Jahren wurden von hier aus die Truppen der deutschen Kolonialmacht verschifft, um Tod und Zerstörung nach Afrika zu bringen. Indem wir das Afrika Terminal zum African Terminal machen, wollen wir praktische Erinnerungsarbeit im gegenwärtigen Miteinander leisten.
+
+…
+
+Derzeit ist das African Terminal eine mobile Installation, die auch an anderen, insbesondere an kolonialgeschichtlich relevanten Orten eingerichtet und im Rahmen von Kulturveranstaltungen, Festivals und Ausstellungen mit thematischem Bezug gebucht werden kann. Bei Interesse bitte melden!

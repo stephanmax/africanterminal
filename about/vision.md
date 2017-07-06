@@ -3,4 +3,4 @@ title: Vision
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Das große Lagerhaus des alten Afrika Terminals steht derzeit leer, die Zukunft des Baakenhöfts ist ungewiss. Würde die Stadt Hamburg das Lagerhaus teilweise dem African Terminal zur Verfügung stellen, könnte der alte Afrika Terminal tatsächlich zum African Terminal werden. Wir streben dies mittelfristig im Rahmen einer Kooperation aus verschiedenen Kulturanbietern an, die das Baakenhöft insgesamt in ein Kulturterminal verwandeln könnten. Die geheimagentur hat dazu eine Potenzialanalyse erstellt (erhältlich auf Nachfrage: [info@geheimagentur.net](mailto:info@geheimagentur.net))

@@ -3,15 +3,15 @@ title: Die Kooperative
 layout: default
 sections:
   intro: |
-    African Terminal ist eine Kooperative von Händlern und Künstlern, die Kultur- und Handelsbeziehung zwischen Hamburg und Westafrika fördert. Sie sammelt nicht mehr benutze Gebrauchtwaren in Hamburg und verschickt sie nach Westafrika, organisiert Kulturveranstaltungen in Hamburg und betreibt eine Business-School.
-  hero:
-    image: none.jpg
-    text: |
-      African Terminal gestaltet die Zukunft Hamburgs als Hafenstadt.
-
-      90 Prozent unseres alltäglichen Gebrauchs wird über das Meer transportiert. Lernen Sie mehr über den Hamburger Hafen, und wie wir ihn als Bürger_innen ihn nutzen können.
-
-      Wir bieten Ihnen die Expertise westafrikanischer Händler, die seit mehreren Jahrzehnten von Hamburg aus maritime Handelsbeziehungen mitgestalten.
+    Der African Terminal ist aktuell in der Testphase und Teil der künstlerischen Arbeit der geheimagentur. Angestrebt ist jedoch die Gründung einer Kooperative.
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Für die erste Transaktion im Sommer 2017 hat die geheimagentur ein Startkapital von 10 000 Euro aus Projektmitteln für den FREE PORT Baakenhöft zur Verfügung gestellt. Wie dieses Geld für die erste Transaktion eingesetzt wird, entscheidet die Mitgliederversammlung. Die Einkünfte der ersten Transaktion werden über ein System von ‚Shares’ an alle Trader und Shareholder verteilt. 500 Shares wurden ausgegeben. 300 davon werden von den Tradern des African Terminal gehalten. 200 Shares im Wert von jeweils 20 Euro können noch erworben werden.
+
+### WERDEN SIE SHAREHOLDER!
+
+Als Shareholder investieren Sie in die Transaktion des African Terminal und sind damit entsprechend an den Einkünften beteiligt. Nach Abschluss der Transaktion erhalten Sie den Geschäftsbericht des African Terminal und können dann entscheiden: Wollen Sie Ihren Anteil ausgezahlt bekommen oder investieren Sie weiter in die Transaktion II? Oder wollen Sie das Geld spenden und für Qualifizierungsmaßnahmen der Trader zur Verfügung stellen?
+
+### Wollen Sie Trader im African Terminal werden?
+
+Sind Sie in den letzten drei Jahren aus einem afrikanischen Land nach Hamburg gekommen und wollen im Im- und Exporthandel tätig werden? Im African Terminal sind derzeit zehn angehende Trader organisiert. Sobald ein Platz frei wird, oder sich das Geschäftsvolumen entsprechend erhöht, werden neue Mitglieder aufgenommen. Bei Interesse bitte melden!
