@@ -1,7 +1,7 @@
-<header class="hero is-primary has-text-centered">
+<header class="hero at-hero-title has-text-centered">
 
   <div class="hero-body is-paddingless">
-    <h1 class="title at-title is-1">AFRICAN<img src="/images/logo-AT-draft-x05.png" alt="Logo" class="at-logo">TERMINAL</h1>
+    <h1 class="title at-title">AFRICAN<img src="/images/at_logo_nt.svg" alt="Logo" class="at-logo">TERMINAL</h1>
   </div>
 
   <div class="hero-footer">
@@ -23,8 +23,8 @@
 
 </header>
 
-<nav class="nav tabs is-medium is-fullwidth has-text-centered has-shadow">
-  <div class="container">
+<nav class="nav tabs at-sub-nav is-medium is-fullwidth has-text-centered">
+  <!--div class="container"-->
 
     {% if site.menus.main contains page.title %}
     <ul>
@@ -40,6 +40,6 @@
       <li class="is-tab{% if page.title == 'Vision' %} is-active{% endif %}"><a href="/about/vision">Vision</a></li>
     </ul>
     {% endif %}
-  </div>
+  <!--/div-->
 
 </nav>

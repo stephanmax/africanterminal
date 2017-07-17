@@ -5,7 +5,7 @@
  * created by Philipp Geisler
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600');
 
 @import "vendor/bulma/sass/utilities/initial-variables";
 
@@ -34,11 +34,27 @@ $family-headers: "Roboto Condensed", sans-serif;
 
 /* TITLE + MENU BAR */
 .at-logo {
-  width:  150px;
-  height: 150px;
+  width:  250px;
+  height: 250px;
   padding: 12px;
   vertical-align: middle;
 }
+
+.at-title {
+  font-size: 4em;
+  font-weight: 600;
+  color: $background;
+}
+
+.at-hero-title {
+  background-color: $black;
+}
+
+/* .at-sub-nav {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dbdbdb;
+} */
 
 /* HEADERS */
 h1, h2, h3 {
