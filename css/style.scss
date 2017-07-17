@@ -56,6 +56,10 @@ $family-headers: "Roboto Condensed", sans-serif;
   border-bottom-color: #dbdbdb;
 } */
 
+.at-top-nav a {
+  color: $grey-light;
+}
+
 /* HEADERS */
 h1, h2, h3 {
   font-family: $family-headers;
@@ -98,4 +102,8 @@ nav {
 .hero.is-primary .title.at-title,
 .hero.is-primary .help {
   color: $black;
+}
+
+.hero.is-primary .content {
+  color: $background;
 }
