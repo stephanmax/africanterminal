@@ -10,7 +10,7 @@ sections:
 
 | 17\.&nbsp;August | 11.30&nbsp;Uhr | Pressekonferenz |
 |             | 18.00&nbsp;Uhr | Eröffnung |
-| 19\.&nbsp;August | ab&nbsp;14&nbsp;Uhr | Wir tauschen: Fön gegen Konzert.<br/>Afrikanische Musik zum Entspannen und Tanzen |
+| 19\.&nbsp;August | ab&nbsp;14&nbsp;Uhr | Things for Drinks: Gebrauchte Haushaltsgegenstände gegen Drinks! Dazu afrikanische Musik live! |
 
 Der African Terminal ist Teil des FREE PORT Baakenhöft von [geheimagentur](http://www.geheimagentur.net) und [Hamburg Port Hydrarchy](    http://hamburgporthydrarchy.wordpress.com/) im Rahmen des Internationalen Sommerfestivals Kampnagel. Mehr zum FREE PORT Baakenhöft – Pressemitteilung der geheimagentur:  
 

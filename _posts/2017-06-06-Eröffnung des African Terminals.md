@@ -1,7 +1,7 @@
 ---
 title: Eröffnung des African Terminal
 excerpt_separator: <!--more-->
-image: https://unsplash.it/400/200
+image: /images/news-opening-temp.jpg
 ---
 
 Der African Terminal wird am 17. August auf dem Gelände des alten Afrika Terminals am Petersenkai / Hafencity eröffnet!
@@ -10,4 +10,4 @@ Der African Terminal wird am 17. August auf dem Gelände des alten Afrika Termin
 
 | 17\.&nbsp;August | 11.30&nbsp;Uhr | Pressekonferenz |
 |             | 18.00&nbsp;Uhr | Eröffnung |
-| 19\.&nbsp;August | ab&nbsp;14&nbsp;Uhr | Wir tauschen: Fön gegen Konzert.<br/>Afrikanische Musik zum Entspannen und Tanzen |
+| 19\.&nbsp;August | ab&nbsp;14&nbsp;Uhr | Things for Drinks: Gebrauchte Haushaltsgegenstände gegen Drinks! Dazu afrikanische Musik live! |
