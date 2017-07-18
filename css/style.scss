@@ -49,12 +49,18 @@ $font-size-intro: 1.3rem;
   color: $background;
 }
 
-.at-hero-title {
+.at-hero-title,
+.has-black-background {
   background-color: $black;
 }
 
 .at-top-nav a {
   color: $grey-light;
+}
+
+main a:hover {
+  color: $primary;
+  text-decoration: underline;
 }
 
 .at-intro {
@@ -64,10 +70,6 @@ $font-size-intro: 1.3rem;
   text-align: center;
 }
 
-a:hover {
-  color: $primary;
-  text-decoration: underline;
-}
 
 /* HEADERS */
 h1, h2, h3 {

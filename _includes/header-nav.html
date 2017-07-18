@@ -1,13 +1,13 @@
 <header class="hero at-hero-title has-text-centered">
 
   <div class="hero-body is-paddingless">
-    <h1 class="title at-title">AFRICAN<img src="/images/at_logo_nt.svg" alt="Logo" class="at-logo">TERMINAL</h1>
+    <h1 class="title at-title">AFRICAN<img src="/images/at_logo_nt.svg" alt="African Terminal logo" class="at-logo">TERMINAL</h1>
   </div>
 
   <div class="hero-footer">
     <div class="columns">
-      <div class="column is-8 is-offset-2">
-        <nav class="nav at-top-nav tabs is-large is-boxed is-fullwidth has-text-centered">
+      <div class="column is-6 is-offset-3">
+        <nav class="at-top-nav tabs is-large is-boxed is-fullwidth has-text-centered">
           <ul>
             <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
               <a href="/">Was wir tun</a>
@@ -23,9 +23,7 @@
 
 </header>
 
-<nav class="nav at-sub-nav tabs is-large is-fullwidth has-text-centered">
-  <!--div class="container"-->
-
+<nav class="at-sub-nav tabs is-large is-fullwidth has-text-centered">
     {% if site.menus.main contains page.title %}
     <ul>
       <li class="is-tab{% if page.title == 'Miteinander Handeln' %} is-active{% endif %}"><a href="/">Handel</a></li>
@@ -40,6 +38,4 @@
       <li class="is-tab{% if page.title == 'Vision' %} is-active{% endif %}"><a href="/about/vision">Vision</a></li>
     </ul>
     {% endif %}
-  <!--/div-->
-
 </nav>
