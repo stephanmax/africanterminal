@@ -9,4 +9,4 @@ Von Beginn des 20. Jahrhunderts bis noch nach dem 2. Weltkrieg war der Baakenhaf
 
 Hier an diesem Ort, wo nichts an die Truppenverschiffungen und die Folgen kolonialer Politik, nichts an die Rolle des Hamburger Kaufmanns Adolph Woermann im deutschen Kolonialismus erinnert, situiert sich das African Terminal als postkoloniale Kooperative. Hier werden durch den Kolonialismus tradierte Handelsstrukturen angeeignet, umgedreht und neu gestaltet und dadurch auch eine praktische Aufarbeitung der spezifischen Geschichte und ein Erinnern an die Gräueltaten vollzogen.
 
-Derzeit ist das African Terminal eine mobile Installation, die auch an anderen, insbesondere an kolonialgeschichtlich relevanten Orten eingerichtet und im Rahmen von Kulturveranstaltungen, Festivals und Ausstellungen mit thematischem Bezug gebucht werden kann. Bei Interesse bitte melden!
+Der African Terminal ist derzeit eine mobile Installation, die auch an anderen, insbesondere an kolonialgeschichtlich relevanten Orten eingerichtet und im Rahmen von Kulturveranstaltungen, Festivals und Ausstellungen mit thematischem Bezug gebucht werden kann. [Bei Interesse bitte melden!](mailto:info@geheimagentur.net)
