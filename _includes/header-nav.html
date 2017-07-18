@@ -7,7 +7,7 @@
   <div class="hero-footer">
     <div class="columns">
       <div class="column is-8 is-offset-2">
-        <nav class="nav at-top-nav tabs is-medium is-boxed is-fullwidth has-text-centered">
+        <nav class="nav at-top-nav tabs is-large is-boxed is-fullwidth has-text-centered">
           <ul>
             <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
               <a href="/">Was wir tun</a>
@@ -23,12 +23,12 @@
 
 </header>
 
-<nav class="nav at-sub-nav tabs is-medium is-fullwidth has-text-centered">
+<nav class="nav at-sub-nav tabs is-large is-fullwidth has-text-centered">
   <!--div class="container"-->
 
     {% if site.menus.main contains page.title %}
     <ul>
-      <li class="is-tab{% if page.title == 'Handel' %} is-active{% endif %}"><a href="/">Handel</a></li>
+      <li class="is-tab{% if page.title == 'Miteinander Handeln' %} is-active{% endif %}"><a href="/">Handel</a></li>
       <li class="is-tab{% if page.title == 'Events' %} is-active{% endif %} "><a href="/events">Events</a></li>
       <li class="is-tab{% if page.title == 'Business School' %} is-active{% endif %} "><a href="/business-school">Business School</a></li>
     </ul>
