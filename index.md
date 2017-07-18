@@ -1,19 +1,16 @@
 ---
 title: Miteinander Handeln
 layout: default
-sections:
-  intro: |
-    Sie wissen nicht, was Sie mit Ihrem alten Fernseher oder Kühlschrank machen sollen? Dann melden Sie sich bei uns! Wir holen Ihre alten Elektro- und Haushaltsgeräte gerne bei Ihnen zu Hause ab. Keine Fahrt zum Recyclinghof, keine Arbeit mit Kleinanzeigen – werden Sie Förderer/in des African&nbsp;Terminal!
+intro: |
+  Sie wissen nicht, was Sie mit Ihrem alten Fernseher oder Kühlschrank machen sollen? Dann melden Sie sich bei uns! Wir holen Ihre alten Elektro- und Haushaltsgeräte gerne bei Ihnen zu Hause ab. Keine Fahrt zum Recyclinghof, keine Arbeit mit Kleinanzeigen – werden Sie Förderer/in des African&nbsp;Terminal!
 
-    **Wanted&#58; Elektrogeräte, Kinderspielzeug, Fahrräder, Möbel.**
+  **Wanted&#58; Elektrogeräte, Kinderspielzeug, Fahrräder, Möbel.**
 
-    Im African Terminal erfahren Sie, wie der Hamburger Hafen uns mit der Welt verbindet, und was Migration, bürgerschaftliches Handeln und Seehandel miteinander zu tun haben.
+  Im African Terminal erfahren Sie, wie der Hamburger Hafen uns mit der Welt verbindet, und was Migration, bürgerschaftliches Handeln und Seehandel miteinander zu tun haben.
 
+  [Jetzt mitmachen!](#contribute)
 
-  hero:
-    image: /images/africanterminal.jpg
-    text: |
-      Haben Sie funktionierende Haushaltseräte oder Möbel, die Sie nicht mehr brauchen? Dann melden Sie sich bei uns! Gern holen wir die Geräte bei Ihnen ab. Keine Fahrt zum Recyclinghof, keine Arbeit mit Kleinanzeigen – stattdessen Förderer/Förderin des African Terminal werden! Oder Sie kommen zwischen dem 17. und dem 24. August 2017 selbst im African Terminal in der Hafencity vorbei, bringen Sie Ihre Sachspenden mit und sehen, wie sie verschifft werden!
+image: /images/africanterminal.jpg
 ---
 
 Im African Terminal haben sich Neu-Hamburger aus Gambia, Ghana und Nigeria mit Hamburger Kulturschaffenden zusammengetan, um gemeinsam Seehandel zwischen Hamburg und Westafrika zu organisieren. Hier handeln Menschen gemeinsam und schaffen so Verbindungen zwischen Communities in Hamburg und in Westafrika. Dadurch gewinnen alle: Sie werden ihren alten Fernseher los, die Neuhamburger qualifizieren sich im Exportgeschäft, und wir lernen mehr darüber, wie der Hafen uns mit der Welt verbindet.

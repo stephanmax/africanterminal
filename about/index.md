@@ -1,9 +1,8 @@
 ---
 title: Die Kooperative
 layout: default
-sections:
-  intro: |
-    Der African Terminal ist aktuell in der Testphase und Teil der künstlerischen Arbeit der geheimagentur. Angestrebt ist jedoch die Gründung einer Kooperative.
+intro: |
+  Der African Terminal ist aktuell in der Testphase und Teil der künstlerischen Arbeit der geheimagentur. Angestrebt ist jedoch die Gründung einer Kooperative.
 ---
 
 Für die erste Transaktion im Sommer 2017 hat die geheimagentur ein Startkapital von 10 000 Euro aus Projektmitteln für den FREE PORT Baakenhöft zur Verfügung gestellt. Wie dieses Geld für die erste Transaktion eingesetzt wird, entscheidet die Mitgliederversammlung. Die Einkünfte der ersten Transaktion werden über ein System von ‚Shares’ an alle Trader und Shareholder verteilt. 500 Shares wurden ausgegeben. 300 davon werden von den Tradern des African Terminal gehalten. 200 Shares im Wert von jeweils 20 Euro können noch erworben werden.
