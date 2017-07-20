@@ -1,6 +1,7 @@
 ---
 title: Business School
 layout: default
+image: /images/at-brainstorm.jpg
 ---
 
 Viele Neuhamburger, die in den vergangenen Jahren aus afrikanischen Ländern in die Stadt gekommen sind, wollen im Im- und Exporthandel mit afrikanischen Ländern tätig zu werden. Meist fehlt Ihnen dazu jedoch Kapital. Im African Terminal sind angehende Händler aus Gambia, Ghana und Nigeria organisiert, die ihr Wissen über den Markt in ihren Herkunftsländern mitbringen, und sich im Zuge der ersten Handelstransaktionen in Hamburg weiter qualifizieren. Dazu gehört die Eröffnung eines Geschäftskontos oder die Neubeantragung eines Führerscheins ebenso wie komplexe logistische, rechtliche und ökonomische Fragen.
@@ -13,6 +14,6 @@ Obwohl die Geschicke von Hafen und Stadt so eng miteinander verbunden sind, teil
 
 Die wichtigste Frage bleibt: Wie kann aus Handel ein Miteinander Handeln werden?
 
-Die Business School des African Terminal kooperiert mit dem [Graduiertenkolleg Performing Citizenship](http://performingcitizenship.de/) (Hafencity Universität/HAW/FUNDUS THEATER/ K3 Zentrum für Choreographie) und steht hier im Zusammenhang mit Forschungsprojekten zum Sound der Kolonialgeschichte (Katharina Kellermann), zum Zusammenhang von Logistik und Choreographie (Moritz Frischkorn) sowie zu Paralogistik (Sibylle Peters).   
+Die Business School des African Terminal kooperiert mit dem [Graduiertenkolleg Performing Citizenship](http://performingcitizenship.de/) (Hafencity Universität/HAW Hamburg/FUNDUS THEATER/ K3 – Zentrum für Choreographie) und steht in Verbindung zu Forschungsprojekten zum Zusammenhang von Sound und der Erinnerung an Kolonialgeschichte (Katharina Kellermann), zum Zusammenhang von Logistik und Choreographie (Moritz Frischkorn), sowie zu Paralogistik (Sibylle Peters).
 
 Die Business School des African Terminal ist für ihre weitere Entwicklung an Kooperationen mit NGOs und Organisationen wie der Handelskammer oder auch der Agentur der Arbeit interessiert. [Bei Interesse bitte melden!](mailto:info@geheimagentur.net)

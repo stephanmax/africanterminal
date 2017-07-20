@@ -11,9 +11,11 @@
         </article>
       </div>
     </section>
+    {% endif %}
 
+    {% if page.image %}
     <section class="level is-fullwidth">
-      <img src="{{ page.image }}" alt="">
+      <img class="at-header-img" src="{{ page.image }}" alt="">
     </section>
     {% endif %}
 
