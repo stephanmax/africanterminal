@@ -6,17 +6,17 @@ intro: |
 
   **Wanted&#58; Elektrogeräte, Kinderspielzeug, Fahrräder, Möbel.**
 
-  Im African Terminal erfahren Sie, wie der Hamburger Hafen uns mit der Welt verbindet, und was Migration, bürgerschaftliches Handeln und Seehandel miteinander zu tun haben.
+  Im African Terminal erfahren Sie, wie der Hamburger Hafen uns mit der Welt verbindet, und was Migration, gemeinschaftliches Handeln und Seehandel miteinander zu tun haben.
 
   [Jetzt mitmachen!](#contribute)
 
 image: /images/africanterminal.jpg
 ---
 
-Im African Terminal haben sich Neu-Hamburger aus Gambia, Ghana und Nigeria mit Hamburger Kulturschaffenden zusammengetan, um gemeinsam Seehandel zwischen Hamburg und Westafrika zu organisieren. Hier handeln Menschen gemeinsam und schaffen so Verbindungen zwischen Communities in Hamburg und in Westafrika. Dadurch gewinnen alle: Sie werden ihren alten Fernseher los, die Neuhamburger qualifizieren sich im Exportgeschäft, und wir lernen mehr darüber, wie der Hafen uns mit der Welt verbindet.
+Im African Terminal haben sich Neu-Hamburger aus Gambia, Ghana und Nigeria mit Hamburger Kulturschaffenden zusammengetan, um Seehandel zwischen Hamburg und Westafrika zu organisieren. Hier handeln Menschen gemeinsam und schaffen so Verbindungen zwischen Communities in Hamburg und in Westafrika. Dadurch gewinnen alle: Sie werden Ihren alten Fernseher los, die Neuhamburger qualifizieren sich im Exportgeschäft, und wir lernen mehr darüber, wie der Hafen uns mit der Welt verbindet.
 
-Das African Terminal verbindet Hamburg mit Lagos (Nigeria), Tema (Ghana) und Banjul (Gambia), den Herkunftsländern von Teilen unserer Mitglieder. So nutzt das African Terminal die Expertise derer, die in den letzten Jahren aus diesen Ländern nach Hamburg gekommen sind. Statt großer Konzerne und etablierter Firmen handeln im African Terminal Menschen miteinander und gemeinsam.
+African Terminal verbindet Hamburg mit Lagos (Nigeria), Tema (Ghana) und Banjul (Gambia), den Herkunftsländern von Teilen unserer Mitglieder. So nutzt das African Terminal die Expertise derer, die in den letzten Jahren aus diesen Ländern nach Hamburg gekommen sind. Statt großer Konzerne und etablierter Firmen handeln im African Terminal Menschen miteinander und gemeinsam.
 
-**Für den Anfang sammelt der African Terminal in ganz Hamburg gebrauchte Haushaltsgegenstände und Elektrogeräte und verschifft sie nach Westafrika. Stellen Sie uns Ihren alten Fernseher oder Kühlschrank zur Verfügung – und werden Sie Förderer/in des African Terminal!**
+**Für den Anfang sammelt African Terminal in ganz Hamburg gebrauchte Haushaltsgegenstände und Elektrogeräte und verschifft sie nach Westafrika. Stellen Sie uns Ihren alten Fernseher oder Kühlschrank zur Verfügung – und werden Sie Förderer/in des African Terminal!**
 
 Selbst Händler oder Shareholder des African Terminal werden? [Weitere Infos](/about/).
