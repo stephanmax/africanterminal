@@ -10,7 +10,7 @@ intro: |
 
   [Jetzt mitmachen!](#contribute)
 
-image: /images/africanterminal.jpg
+image: /images/africanterminal-wide.jpg
 ---
 
 Im African Terminal haben sich Neu-Hamburger aus Gambia, Ghana und Nigeria mit Hamburger Kulturschaffenden zusammengetan, um Seehandel zwischen Hamburg und Westafrika zu organisieren. Hier handeln Menschen gemeinsam und schaffen so Verbindungen zwischen Communities in Hamburg und in Westafrika. Dadurch gewinnen alle: Sie werden Ihren alten Fernseher los, die Neuhamburger qualifizieren sich im Exportgeschäft, und wir lernen mehr darüber, wie der Hafen uns mit der Welt verbindet.

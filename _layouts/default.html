@@ -8,12 +8,13 @@
       <div class="column is-6 is-offset-3">
         <article class="content at-intro">
           {{ page.intro | markdownify }}
-          <img src="{{ page.image }}" alt="">
         </article>
       </div>
     </section>
 
-    <section class="level"></section>
+    <section class="level is-fullwidth">
+      <img src="{{ page.image }}" alt="">
+    </section>
     {% endif %}
 
     <section class="columns">
@@ -45,7 +46,7 @@
                   <div class="card-content">
                     <div class="content at-news-content">
                       {{ post.excerpt }}
-                      <small>{{ post.date }}</small>
+                      <!-- small>{{ post.date }}</small-->
                     </div>
                   </div>
                 </article>
