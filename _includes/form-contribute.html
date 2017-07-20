@@ -5,18 +5,18 @@
         <div class="columns">
 
           <div class="column is-7">
-            <form method="post" enctype="multipart/form-data" class="box">
+            <form id="at_form" class="box" @submit.prevent="save">
               <div class="field">
                 <label class="label">Name</label>
                 <p class="control">
-                  <input class="input" type="text" placeholder="Name">
+                  <input class="input" type="text" placeholder="Name" v-model="name">
                 </p>
               </div>
 
               <div class="field">
                 <label class="label">Email</label>
                 <p class="control">
-                  <input class="input is-primary" type="text" placeholder="ihre@emailadresse.de">
+                  <input class="input is-primary" type="text" placeholder="ihre@emailadresse.de" v-model="email">
                 </p>
                 <p class="help">Pflichtfeld</p>
               </div>
@@ -25,7 +25,7 @@
                 <label class="label">Was haben Sie abzugeben?</label>
                 <p class="control">
                   <span class="select">
-                    <select>
+                    <select v-model="type">
                       <option>Elektrogerät</option>
                       <option>Motorenteile</option>
                     </select>
@@ -36,7 +36,7 @@
               <div class="field">
                 <label class="label">Nachricht</label>
                 <p class="control">
-                  <textarea class="textarea is-primary" placeholder="Ihre Nachricht"></textarea>
+                  <textarea class="textarea is-primary" placeholder="Ihre Nachricht" v-model="message"></textarea>
                 </p>
                 <p class="help">Pflichtfeld</p>
               </div>
@@ -48,16 +48,56 @@
               </p-->
               <p class="help">Wenn Sie ein Foto von Ihrem Gebrauchtangebot haben, können Sie es hier für uns hochladen. Klicken/tippen Sie dazu auf "Datei auswählen".</p>
               <p class="control">
-                <input type="file" size="200" accept="image/*" capture="camera">
+                <input type="file" size="200" accept="image/*" capture="camera" ref="photo">
               </p>
             </div>
 
             <div class="field">
               <p class="control">
-                <button class="button is-warning">Abschicken</button>
+                <button class="button is-warning" v-text="submitText"></button>
               </p>
             </div>
           </form>
+
+          <script>
+            var at_form = new Vue({
+              el: '#at_form',
+              data: {
+                name: '',
+                email: '',
+                type: '',
+                message: '',
+                submitText: 'Abschicken'
+              },
+              methods: {
+                save: function() {
+                  var itemsRef = firebase.database().ref('items');
+                  var storageRef = firebase.storage().ref();
+                  var photo;
+
+                  var item = {
+                    name: this.name,
+                    email: this.email,
+                    type: this.type,
+                    message: this.message
+                  }
+
+                  var pushedItem = itemsRef.push(item);
+
+                  if (this.$refs.photo.files.length > 0) {
+                    photo = this.$refs.photo.files[0];
+                    storageRef.child('photos/' + pushedItem.key + '.' + photo.name).put(photo);
+                  }
+
+                  this.name = '';
+                  this.email = '';
+                  this.type = '';
+                  this.message = '';
+                  this.submitText = 'Vielen Dank!';
+                }
+              }
+            });
+          </script>
         </div>
 
         <div class="column is-5">
