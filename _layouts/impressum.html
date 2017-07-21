@@ -1,0 +1,44 @@
+{% include header.html %}
+<body>
+  {% include header-nav.html %}
+  <main class="main">
+
+    {% if page.intro %}
+    <section class="columns">
+      <div class="column is-6 is-offset-3">
+        <article class="content at-intro">
+          {{ page.intro | markdownify }}
+        </article>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.image %}
+    <section class="level is-fullwidth">
+      <img class="at-header-img" src="{{ page.image }}" alt="">
+    </section>
+    {% endif %}
+
+    <section class="columns">
+      <div class="column is-6 is-offset-3">
+        <div class="content">
+          <h2 class="title is-3">{{ page.title }}</h2>
+          <p class="contact">
+            {{ page.contact_name }}<br>
+            {{ page.contact_street }}<br>
+            {{ page.contact_city}}
+          </p>
+          <p class="contact_email">{{ page.contact_email }}</p>
+          {{ page.content | markdownify }}
+        </div>
+      </div>
+    </section>
+
+    <section class="columns">
+      <aside class="column is-6 is-offset-3">
+        <p class="sponsornotice">Gefördert aus Mitteln des Elbkulturfonds der Freien und Hansestadt Hamburg im Rahmen des Projekts Free&nbsp;Port Baakenhöft.</p>
+      </aside>
+    </section>
+  </main>
+
+  {% include footer.html %}
