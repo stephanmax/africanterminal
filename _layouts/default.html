@@ -4,8 +4,8 @@
   <main class="main">
 
     {% if page.intro %}
-    <section class="columns">
-      <div class="column is-6 is-offset-3">
+    <section class="section columns">
+      <div class="column is-6-desktop is-offset-3-desktop is-8-tablet is-offset-2-tablet">
         <article class="content at-intro">
           {{ page.intro | markdownify }}
         </article>
@@ -19,8 +19,8 @@
     </section>
     {% endif %}
 
-    <section class="columns">
-      <div class="column is-6 is-offset-3">
+    <section class="section columns">
+      <div class="column is-6-desktop is-offset-3-desktop is-8-tablet is-offset-2-tablet">
 
         <div class="columns">
           <div class="column is-7">
@@ -58,16 +58,14 @@
           </aside>
         </div>
 
+        {% if page.title == "Miteinander Handeln" %}
+        <aside class="sponsornotice">
+          <p>Gefördert aus Mitteln des Elbkulturfonds der Freien und Hansestadt Hamburg im Rahmen des Projekts FREE&nbsp;PORT BAAKENHÖFT.</p>
+        </aside>
+        {% endif %}
       </div>
     </section>
 
-    {% if page.title == "Miteinander Handeln" %}
-    <section class="columns">
-      <aside class="column is-6 is-offset-3">
-        <p class="sponsornotice">Gefördert aus Mitteln des Elbkulturfonds der Freien und Hansestadt Hamburg im Rahmen des Projekts FREE&nbsp;PORT BAAKENHÖFT.</p>
-      </aside>
-    </section>
-    {% endif %}
 
     {% include form-contribute.html %}
 
