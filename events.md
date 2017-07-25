@@ -1,6 +1,7 @@
 ---
 title: Events
 layout: default
+meta: Das African Terminal wird am 17. August 2017 auf dem Gelände des alten Afrika Terminals am Petersenkai eröffnet! Kommen Sie vom 17.-24.8. in der Hafencity vorbei.
 intro: |
   Das African Terminal wird am 17. August 2017 feierlich auf dem [Gelände des alten Afrika Terminals](/about/place) am Petersenkai/Hafencity eröffnet! Kommen Sie zwischen dem 17. und 24. August im African Terminal in der Hafencity vorbei, bringen Sie Ihre Sachspenden mit und sehen Sie selbst, wie sie verschifft werden!
 

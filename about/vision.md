@@ -1,6 +1,7 @@
 ---
 title: Vision
 layout: default
+meta: Das Lagerhaus des Afrika Terminals steht leer, die Zukunft des Baakenhöfts ist ungewiss. Würde die Stadt Hamburg das Lagerhaus teilweise dem African Terminal zur Verfügung stellen, könnte der alte Afrika Terminal tatsächlich zum African Terminal werden.
 image: /images/at-vision-header.jpg
 ---
 

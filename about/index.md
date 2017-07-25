@@ -1,6 +1,7 @@
 ---
 title: Die Kooperative
 layout: default
+meta: Der African Terminal ist aktuell in der Testphase und Teil der künstlerischen Arbeit der geheimagentur. Angestrebt ist jedoch die Gründung einer Kooperative.
 intro: |
   Der African Terminal ist aktuell in der Testphase und Teil der künstlerischen Arbeit der geheimagentur. Angestrebt ist jedoch die Gründung einer Kooperative.
 image: /images/kooperative.jpg

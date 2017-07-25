@@ -1,6 +1,7 @@
 ---
 title: Business School
 layout: default
+meta: Die Business School des African Terminal ist an Kooperationen mit NGOs und Organisationen wie der Handelskammer oder der Agentur für Arbeit interessiert.
 image: /images/at-brainstorm.jpg
 ---
 
@@ -16,4 +17,4 @@ Die wichtigste Frage bleibt: Wie kann aus Handel ein Miteinander Handeln werden?
 
 Die Business School des African Terminal kooperiert mit dem [Graduiertenkolleg Performing Citizenship](http://performingcitizenship.de/) (Hafencity Universität/HAW Hamburg/FUNDUS THEATER/ K3 – Zentrum für Choreographie) und steht in Verbindung zu Forschungsprojekten zum Zusammenhang von Sound und der Erinnerung an Kolonialgeschichte (Katharina Kellermann), zum Zusammenhang von Logistik und Choreographie (Moritz Frischkorn), sowie zu Paralogistik (Sibylle Peters).
 
-Die Business School des African Terminal ist für ihre weitere Entwicklung an Kooperationen mit NGOs und Organisationen wie der Handelskammer oder auch der Agentur der Arbeit interessiert. [Bei Interesse bitte melden!](mailto:info@geheimagentur.net)
+Die Business School des African Terminal ist für ihre weitere Entwicklung an Kooperationen mit NGOs und Organisationen wie der Handelskammer oder auch der Agentur für Arbeit interessiert. [Bei Interesse bitte melden!](mailto:info@geheimagentur.net)

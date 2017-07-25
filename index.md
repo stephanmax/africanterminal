@@ -1,6 +1,7 @@
 ---
 title: Miteinander Handeln
 layout: default
+meta: Im African Terminal erfahren Sie von Neu-Hamburgern aus Gambia, Ghana und Nigeria, wie der Hamburger Hafen uns mit der Welt verbindet. Werden Sie Förderer/in!
 intro: |
   Sie wissen nicht, was Sie mit Ihrem alten Fernseher oder Kühlschrank machen sollen? Dann melden Sie sich bei uns! Wir holen Ihre alten Elektro- und Haushaltsgeräte gerne bei Ihnen zu Hause ab. Keine Fahrt zum Recyclinghof, keine Arbeit mit Kleinanzeigen – werden Sie Förderer/in des African&nbsp;Terminal!
 

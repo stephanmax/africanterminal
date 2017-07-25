@@ -1,6 +1,7 @@
 ---
 title: Ort
 layout: default
+meta: Indem das Afrika Terminal zum African Terminal wird, leisten wir praktische Erinnerungsarbeit an dem Ort, von dem aus Kolonialtruppen vor rund 100 Jahren ins heutige Namibia verschifft wurden.
 intro: Das African Terminal bezieht im Sommer 2017 am alten Afrika Terminal (Hafencity/Baakenhöft) Quartier. Vor gut hundert Jahren wurden von hier aus die Truppen der deutschen Kolonialmacht ins heutige Namibia, das ehemalige Deutsch Südwestafrika verschifft. Indem wir das Afrika Terminal zum African Terminal machen, wollen wir praktische Erinnerungsarbeit im gegenwärtigen Miteinander leisten.
 image: /images/at-ort.jpg
 ---
