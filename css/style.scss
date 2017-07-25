@@ -155,8 +155,11 @@ nav {
   font-size: 0.8rem;
 }
 
+/* social media icons */
 .at-svg-icon {
-  display: inline-block;
+  // temporarily:
+  display: none;
+  // display: inline-block;
   width: 1.25rem;
   height: 1.25rem;
   margin: 0 0.5rem;
