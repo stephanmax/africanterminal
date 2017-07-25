@@ -4,20 +4,23 @@
   <main class="main">
 
     {% if page.intro %}
-    <section class="columns">
-      <div class="column is-6 is-offset-3">
+    <section class="section columns">
+      <div class="column is-6-desktop is-offset-3-desktop is-8-tablet is-offset-2-tablet">
         <article class="content at-intro">
           {{ page.intro | markdownify }}
-          <img src="{{ page.image }}" alt="">
         </article>
       </div>
     </section>
-
-    <section class="level"></section>
     {% endif %}
 
-    <section class="columns">
-      <div class="column is-6 is-offset-3">
+    {% if page.image %}
+    <section class="level is-fullwidth">
+      <img class="at-header-img" src="{{ page.image }}" alt="">
+    </section>
+    {% endif %}
+
+    <section class="section columns">
+      <div class="column is-6-desktop is-offset-3-desktop is-8-tablet is-offset-2-tablet">
 
         <div class="columns">
           <div class="column is-7">
@@ -45,7 +48,7 @@
                   <div class="card-content">
                     <div class="content at-news-content">
                       {{ post.excerpt }}
-                      <small>{{ post.date }}</small>
+                      <!-- small>{{ post.date }}</small-->
                     </div>
                   </div>
                 </article>
@@ -55,8 +58,14 @@
           </aside>
         </div>
 
+        {% if page.title == "Miteinander Handeln" %}
+        <aside class="sponsornotice">
+          <p>Gefördert aus Mitteln des Elbkulturfonds der Freien und Hansestadt Hamburg im Rahmen des Projekts FREE&nbsp;PORT BAAKENHÖFT.</p>
+        </aside>
+        {% endif %}
       </div>
     </section>
+
 
     {% include form-contribute.html %}
 

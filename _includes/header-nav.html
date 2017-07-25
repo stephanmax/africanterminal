@@ -1,19 +1,25 @@
 <header class="hero at-hero-title has-text-centered">
 
   <div class="hero-body is-paddingless">
-    <h1 class="title at-title">AFRICAN<img src="/images/at_logo_nt.svg" alt="African Terminal logo" class="at-logo">TERMINAL</h1>
+    <h1 class="title at-title is-hidden-touch">AFRICAN<img src="/images/at_logo_nt.svg" alt="African Terminal logo" class="at-logo">TERMINAL</h1>
+
+    <div class="is-hidden-desktop">
+      <h1 class="title at-title">AFRICAN</h1>
+      <img src="/images/at_logo_nt.svg" alt="African Terminal logo" class="at-logo">
+      <h1 class="title at-title">TERMINAL</h1>
+    </div>
   </div>
 
   <div class="hero-footer">
     <div class="columns">
       <div class="column is-6 is-offset-3">
-        <nav class="at-top-nav tabs is-large is-boxed is-fullwidth has-text-centered">
+        <nav class="at-top-nav tabs is-boxed is-fullwidth has-text-centered">
           <ul>
             <li class="{% if site.menus.main contains page.title %}is-active{% endif %} ">
               <a href="/">Was wir tun</a>
             </li>
             <li class="{% if site.menus.about contains page.title %}is-active{% endif %} ">
-              <a href="/about">Über uns</a>
+              <a href="/about">Wer wir sind</a>
             </li>
           </ul>
         </nav>
@@ -23,7 +29,7 @@
 
 </header>
 
-<nav class="at-sub-nav tabs is-large is-fullwidth has-text-centered">
+<nav class="at-sub-nav tabs is-fullwidth has-text-centered">
     {% if site.menus.main contains page.title %}
     <ul>
       <li class="is-tab{% if page.title == 'Miteinander Handeln' %} is-active{% endif %}"><a href="/">Handel</a></li>
