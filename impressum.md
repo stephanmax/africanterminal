@@ -1,7 +1,7 @@
 ---
 title: Impressum
 layout: impressum
-meta: Impressum der African Terminal Website
+meta: Impressum der Website des African Terminal, Hamburg
 
 contact_name: Sibylle Peters
 contact_street: Lange Straße 11

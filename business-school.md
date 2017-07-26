@@ -7,7 +7,7 @@ image: /images/at-brainstorm.jpg
 
 Viele Neuhamburger, die in den vergangenen Jahren aus afrikanischen Ländern in die Stadt gekommen sind, wollen im Im- und Exporthandel mit afrikanischen Ländern tätig zu werden. Meist fehlt Ihnen dazu jedoch Kapital. Im African Terminal sind angehende Händler aus Gambia, Ghana und Nigeria organisiert, die ihr Wissen über den Markt in ihren Herkunftsländern mitbringen, und sich im Zuge der ersten Handelstransaktionen in Hamburg weiter qualifizieren. Dazu gehört die Eröffnung eines Geschäftskontos oder die Neubeantragung eines Führerscheins ebenso wie komplexe logistische, rechtliche und ökonomische Fragen.
 
-Nicht nur für die Neuhamburger ist das African Terminal eine Schule, auch die kultur-schaffenden Mitglieder wollen hier etwas lernen und mit allen Beteiligten gemeinsam erforschen:
+Nicht nur für die Neuhamburger ist der African Terminal eine Schule, auch die kultur-schaffenden Mitglieder wollen hier etwas lernen und mit allen Beteiligten gemeinsam erforschen:
 
 Wussten Sie, dass 90 Prozent aller Gegenstände, die wir im Alltag nutzen, auf dem Seeweg zu uns kommen? 130 000 000 Tonnen Güter aus über 900 Häfen dieser Welt werden jährlich im Hamburger Hafen umgeschlagen. Ein entscheidender Wirtschaftsfaktor: Theoretiker_innen sprechen von einem Logistical Turn. Doch immer größer sind die Konzerne, die dieses Geschäft beherrschen, und immer weniger Menschen haben Anteil daran.
 
