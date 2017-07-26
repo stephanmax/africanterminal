@@ -28,6 +28,7 @@ $warning: $at-yellow;
 $family-headers: "Roboto Condensed", sans-serif;
 $font-size-intro: 1.3rem;
 
+$mobiles-nowadays: 340px;
 
 /* ================================================== *\
  *  BASE ELEMENTS ($section)
@@ -77,6 +78,15 @@ main a:hover {
   font-weight: 500;
 
   text-align: center;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: $font-size-intro * 0.9;
+  }
+
+  @media only screen and (max-width: $mobiles-nowadays) {
+    font-size: $font-size-intro * 0.75;
+  }
+
 }
 
 .at-header-img {
@@ -92,6 +102,10 @@ h1, h2, h3 {
 
 h1 {
   font-size: 3rem;
+
+  &:last-of-type {
+    margin-bottom: 1rem;
+  }
 }
 
 .content h2 {
@@ -114,11 +128,18 @@ nav {
 
 .at-top-nav.tabs,
 .at-sub-nav.tabs {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 
-    @media only screen and (max-width: $tablet) {
-      font-size: 1.3rem;
-    }
+  @media only screen and (max-width: $tablet) {
+    font-size: 1.1rem;
+  }
+}
+
+.tabs a {
+  /* low res mobiles in portrait*/
+  @media only screen and (max-width: $mobiles-nowadays) {
+    padding: 0.5rem 0.5rem;
+  }
 }
 
 /* ====================================== *\
@@ -173,4 +194,12 @@ nav {
 .sponsornotice {
   font-size: $font-size-intro;
   margin: 1.5rem 0;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: $font-size-intro * 0.9;
+  }
+
+  @media only screen and (max-width: $mobiles-nowadays) {
+    font-size: $font-size-intro * 0.75;
+  }
 }
