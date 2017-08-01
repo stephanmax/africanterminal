@@ -1,0 +1,16 @@
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Titel
+    type:  text
+  meta:
+    label: Kurzbeschreibung (HTML <meta>)
+    type: text
+  intro:
+    label: Einleitender Absatz
+    type: textarea
+  text:
+    label: Text
+    type:  textarea

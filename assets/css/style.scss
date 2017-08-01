@@ -1,0 +1,240 @@
+/*
+ * African Terminal
+ * created by Philipp Geisler
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500,600');
+
+@import "vendor/bulma/sass/utilities/initial-variables";
+
+/* ================================================== *\
+ *  BULMA CUSTOMIZATION ($section)
+\* ================================================== */
+
+$at-red:    rgb(252,  30, 0);
+$at-yellow: rgb(255, 255, 0);
+
+$primary: $at-red;
+$warning: $at-yellow;
+
+@import "vendor/bulma/bulma";
+
+/* ================================================== *\
+ *  VARIABLES ($section)
+\* ================================================== */
+
+$family-headers: "Roboto Condensed", sans-serif;
+$font-size-intro: 1.3rem;
+
+$mobiles-nowadays: 340px;
+
+/* ================================================== *\
+ *  BASE ELEMENTS ($section)
+\* ================================================== */
+
+/* desired width of content: main set to margin: 0 10rem */
+
+/* TITLE + MENU BAR */
+.at-logo {
+  width:  250px;
+  height: 250px;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.at-title {
+  font-size: 4em;
+  font-weight: 600;
+  color: $background;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: 3rem;
+  }
+
+}
+
+.at-title:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.at-hero-title,
+.has-black-background {
+  background-color: $black;
+}
+
+main a:hover {
+  color: $primary;
+  text-decoration: underline;
+}
+
+.at-intro {
+  font-size: $font-size-intro;
+  font-weight: 500;
+
+  text-align: center;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: $font-size-intro * 0.9;
+  }
+
+  @media only screen and (max-width: $mobiles-nowadays) {
+    font-size: $font-size-intro * 0.75;
+  }
+
+}
+
+.at-header-img {
+  width: 100%;
+}
+
+
+/* HEADERS */
+h1, h2, h3 {
+  font-family: $family-headers;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+
+  &:last-of-type {
+    margin-bottom: 1rem;
+  }
+}
+
+.content h2 {
+  font-size: $font-size-intro;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+/* ================================================== *\
+ *  NAVIGATIONAL ELEMENTS ($section)
+\* ================================================== */
+
+nav {
+  font-family: $family-headers;
+  font-weight: 600;
+}
+
+.at-top-nav.tabs,
+.at-sub-nav.tabs {
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: 1.1rem;
+  }
+}
+
+.at-top-nav a {
+  color: $grey-light;
+}
+
+.tabs a {
+  /* low res mobiles in portrait*/
+  @media only screen and (max-width: $mobiles-nowadays) {
+    padding: 0.5rem;
+  }
+}
+
+.hero-footer {
+  position: relative;
+}
+
+.languages {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+
+  font-size: 1rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+
+  li a {
+    color: $grey-light;
+  }
+
+  li.active a {
+    color: $white;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    padding: 0.5rem;
+  }
+}
+
+/* ====================================== *\
+ *  PAGES ($section)
+\* ====================================== */
+
+/* ====================================== *\
+ *  SECTIONS ($section)
+\* ====================================== */
+
+.footer {
+  font-family: $family-headers;
+
+  a {
+    font-weight: normal;
+    color: $text;
+  }
+
+  a.active {
+    color: $primary;
+  }
+}
+
+.at-news-content {
+  font-size: 0.8rem;
+}
+
+.card-header-title {
+  font-family: $family-headers;
+  font-size: $font-size-intro;
+}
+
+/* ====================================== *\
+ *  MISC, OVERRIDES,… ($section)
+\* ====================================== */
+
+.field .help {
+  font-size: 0.8rem;
+  color: $grey-dark;
+}
+
+#contribute aside a {
+  text-decoration: underline;
+}
+
+/* social media icons */
+.at-svg-icon {
+  // temporarily:
+  display: none;
+  // display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 0.5rem;
+}
+
+.content blockquote {
+  border-left: none;
+  text-indent: -0.5em;
+}
+
+.sponsornotice {
+  font-size: $font-size-intro;
+  margin: 1.5rem 0;
+
+  @media only screen and (max-width: $tablet) {
+    font-size: $font-size-intro * 0.9;
+  }
+
+  @media only screen and (max-width: $mobiles-nowadays) {
+    font-size: $font-size-intro * 0.75;
+  }
+}
