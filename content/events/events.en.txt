@@ -1,0 +1,37 @@
+Title: Events
+
+----
+
+Meta: On August 17, 2017 the African Terminal will be opened on the site of the former Afrika Terminal at Petersenkai/Hafencity. Come and join us from August 17 to 24!
+
+----
+
+Intro: On August 17, 2017 the African Terminal will be opened officially at the [site of the former Afrika Terminal](/about/place) on Petersenkai/Hafencity. Come by from August 17 to 24, bring your donation in kind and have a look at how it is being shipped!
+
+----
+
+Text: 
+
+<table>
+  <tr>
+    <td><strong>August&nbsp;17</strong> 11.30&nbsp;a.m.</td>
+    <td><br/>Press Conference</td>
+  </tr>
+  <tr>
+    <td>6.00&nbsp;p.m.</td>
+    <td>Opening</td>
+  </tr>
+  <tr>
+    <td><strong>August&nbsp;19</strong> from&nbsp;2&nbsp;p.m.</td>
+    <td><em>Things for Drinks</em>: Trade used household items for drinks! With a guided tour trough the African Terminal, and African music live.</td>
+  </tr>
+</table>
+
+<p><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=10.000036954879763%2C53.536220378665206%2C10.01280426979065%2C53.54113622273734&amp;layer=mapnik&amp;marker=53.538678372050285%2C10.006420612335205" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=53.53868&amp;mlon=10.00642#map=17/53.53868/10.00642">Größere Karte anzeigen</a></small></p>
+
+The African Terminal is part of FREE PORT BAAKENHÖFT by [geheimagentur](http://www.geheimagentur.net) and [Hamburg Port Hydrarchy](http://hamburgporthydrarchy.wordpress.com/) in the frame of International Summerfestival Kampnagel.
+
+Learn more about FREE PORT BAAKENHÖFT in a press release of geheimagentur:
+> "The destiny of the port of Hamburgs is in the hands of the Hamburg Port Authority. Not always to the best: Cuiseshipping boom and smart port logistics, but no space whatsoever for an alternative development of the port. This is not being discussed enough in the city, the secret agency declared, and founded Hamburg Port Hydrarchy. This alternative body now opens the FREE PORT BAAKENHÖFT, a different port for the here and now. It comprises a proper jetty, a harbor museum, the african terminal, a regatta course and a ship welcoming station.“
+
+At the moment, the African Terminal is a mobile installation that can also be set up at other places connected to the history of colonialism, especially in the framework of cultural events, festivals and exhibitions with a thematic link to our concerns. [Please contact us if you are interested!](mailto:info@geheimagentur.net)
