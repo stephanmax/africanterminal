@@ -17,8 +17,14 @@
           <li><a href="<?php echo url('/about/vision'); ?>"><?php echo l::get('m_vision') ?></a></li>
         </ul>
       </div>
-      <div class="column is-1">
-        <a href="<?php echo url('/impressum'); ?>">Impressum</a>
+      <div class="column col-impressum is-1">
+          <a href="<?php echo url('/impressum'); ?>">Impressum</a>
+          <div>&nbsp;</div>
+          <?php foreach($site->languages() as $language): ?>
+            <a href="<?php echo $page->url($language->code()) ?>"<?php e($site->language() == $language, ' class="active"') ?>>
+              <?php echo html($language->name()) ?>
+            </a>
+          <?php endforeach ?>
       </div>
 
       <!-- SVG by https://simpleicons.org/ CC0 -->

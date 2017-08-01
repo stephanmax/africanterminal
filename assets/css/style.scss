@@ -183,6 +183,10 @@ nav {
     font-weight: normal;
     color: $text;
   }
+
+  a.active {
+    color: $primary;
+  }
 }
 
 .at-news-content {

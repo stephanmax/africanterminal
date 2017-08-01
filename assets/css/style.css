@@ -6627,6 +6627,10 @@ nav {
   color: #4a4a4a;
 }
 
+.footer a.active {
+  color: #fc1e00;
+}
+
 .at-news-content {
   font-size: 0.8rem;
 }
