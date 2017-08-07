@@ -10,8 +10,8 @@
 
   <link rel="stylesheet" media="screen" href="<?php echo url('/assets/css/style.min.css'); ?>" type="text/css"/>
 
-  <!-- link rel="icon" href="/assets/images/favicon-16.png" sizes="16x16" type="image/png">
-	<link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="<?php echo url('/assets/images/favicon-16.png?v=2') ?>" sizes="16x16" type="image/png">
+	<!--link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
 	<link rel="icon" href="/assets/images/favicon-48.png" sizes="48x48" type="image/png">
 	<link rel="icon" href="/assets/images/favicon-62.png" sizes="62x62" type="image/png" -->
 
