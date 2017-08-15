@@ -1,0 +1,18 @@
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Titel
+    type:  text
+    width: 3/4
+  date:
+    label: verfasst am
+    type: date
+    width: 1/4
+  meta:
+    label: Kurzbeschreibung (HTML <meta>)
+    type: text
+  text:
+    label: Text
+    type:  textarea

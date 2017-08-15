@@ -1,0 +1,37 @@
+Title: Site Notice
+
+----
+
+Meta: Site notice of the website of African Terminal, Hamburg
+
+----
+
+Contactname: Sibylle Peters
+
+----
+
+Contactstreet: Lange Straße 11
+
+----
+
+Contactcity: 20359 Hamburg
+
+----
+
+Contactemail: sibyllepeters@gmx.de
+
+----
+
+Text: 
+
+### Privacy
+
+The operator of this website considers the safety of your personal data a high priority. Any personal data are being  handled confidentially and according  to the law. 
+
+As far as you enter personal data on our website, this happens voluntarily. This data will not be handed over to any third party without your explicit consent. 
+
+We indicate that data transfer on the web can be object to security vulnerability. A complete protection of data against the illegal access of third parties is not possible.
+
+----
+
+Intro: 
